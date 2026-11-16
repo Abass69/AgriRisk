@@ -1,0 +1,16 @@
+     split           model  n     MAE    RMSE  MAPE_pct  MAE_CI_low  MAE_CI_high  coverage90  interval_width  interval_score90
+      test  moving_average 24  16.309  19.983     4.655      10.967       21.857       1.000         168.425           168.425
+      test     persistence 24  15.474  18.851     4.373      11.502       19.756       1.000         152.000           152.000
+      test           ridge 24  33.915  43.240     9.371      18.465       50.651       1.000         240.093           240.093
+      test  seasonal_naive 24  59.636  74.846    16.575      33.445       89.203       1.000         402.709           402.709
+      test        xgb_full 24  15.144  19.574     4.361       9.698       21.830       0.875         166.088           172.812
+      test     xgb_plus_fx 24  19.623  24.226     5.645      12.827       26.949       1.000         181.032           181.032
+      test xgb_target_only 24  19.381  24.151     5.602      12.353       27.658       1.000         200.515           200.515
+validation  moving_average 24  59.462  74.112    11.427      40.021       83.009       0.875         262.151           374.413
+validation     persistence 24  51.409  69.160     9.770      30.059       74.756       0.875         259.137           413.407
+validation           ridge 24  71.368  94.946    13.665      42.599      105.031       0.833         297.483           523.367
+validation  seasonal_naive 24 138.016 157.108    26.858      98.202      184.858       0.875         507.646           765.104
+validation        xgb_full 24  62.168  90.601    11.246      28.433      108.272       0.875         399.376           570.731
+validation     xgb_plus_fx 24  65.175  92.398    11.943      31.588      111.175       0.875         405.224           584.745
+validation xgb_target_only 24  68.376  94.904    12.643      35.169      113.366       0.875         390.199           565.003
+Validation-selected model: persistence

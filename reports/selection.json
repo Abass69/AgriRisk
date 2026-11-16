@@ -1,0 +1,11 @@
+{
+  "selected_on_validation": "persistence",
+  "selection_rule": "Lowest 2022-2023 MAE; no test-based retuning",
+  "python": "3.12.14",
+  "versions": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.4.1"
+  }
+}

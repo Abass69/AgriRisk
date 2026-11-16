@@ -1,0 +1,21 @@
+{
+  "built_utc": "2026-11-16T08:02:00.620952+00:00",
+  "sources": [
+    {
+      "file": "world_bank_monthly.xlsx",
+      "url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+      "sha256": "3c8d9d8dbb48342fdbf24777c39a8ce8964cc2fd0958f72f6779e6e4ad99cde2"
+    },
+    {
+      "file": "boc_fx.json",
+      "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2017-01-01&end_date=2025-12-31",
+      "sha256": "5f1be1ecdb13ea5852819f08734b0bb6198b404c6d678591565b3981d062dd68"
+    }
+  ],
+  "start": "2017-01-01",
+  "end": "2025-12-01",
+  "rows": 108,
+  "missing_values": 0,
+  "minimum_daily_fx_observations": 19,
+  "vintage_warning": "Current revised snapshot, not a real-time vintage archive."
+}
