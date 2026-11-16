@@ -14,7 +14,7 @@ Do lagged exchange rates and related commodity prices improve monthly CAD-denomi
 
 ## Quick start
 
-Python 3.11 recommended. Run commands from this repository directory.
+Python 3.12 recommended. Run commands from this repository directory.
 
 ```bash
 python -m venv .venv
